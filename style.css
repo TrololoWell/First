@@ -27,5 +27,22 @@ body {
     font-family: 'Poppins', sans-serif; 
 }
 .nav{
-   background-color: #ffffff;
+   background-color: blue;
+   overflow: hidden;
+}
+
+.nuvbar {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+/* .logo{
+   a {
+      color: #ffff;
+   }
+} */
+.menu {
+   display: flex;
 }
