@@ -16,7 +16,7 @@ function burgerMenu() {
    })
    // брейк
    window.addEventListener('resize', () =>{
-      if (window.innerWidth > 991.98){
+      if (window.innerWidth > 768.98){
          menu.classList.remove('active')
          burger.classList.remove('active-burger')
          body.classList.remove('locked')
