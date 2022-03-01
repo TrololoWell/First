@@ -210,4 +210,53 @@ span{
    background-color: #053ecf;
    transition: 00.3s all ease;
 }
- 
+
+.hero_stats_title{
+   padding-top: 130px;
+   font-family: Metropolis;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   text-transform: uppercase;
+   color: #9998A4; 
+}
+
+.hero_stats{
+   display: flex;
+   gap: 80px;
+}
+
+.hero_stats_item_num{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 36px;
+   line-height: 36px;
+   text-align: center;
+   color: #232427;
+   margin-top: 30px;
+}
+
+.hero_stats_item_text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 14px;
+   text-transform: uppercase;
+   color: #5E5C6C;
+   margin-top: 15px;
+}
+.hero{
+   padding-bottom: 50px;
+   padding-left: 80px;
+}
+
+.section_hero {
+   position: relative;
+}
+
+.section_hero img{
+   position: absolute;
+   right: 0;
+   top: 0;
+}
