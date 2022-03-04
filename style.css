@@ -247,16 +247,120 @@ span{
    margin-top: 15px;
 }
 .hero{
-   padding-bottom: 50px;
    padding-left: 80px;
 }
 
 .section_hero {
    position: relative;
+   padding-bottom: 50px;
 }
 
 .section_hero img{
    position: absolute;
    right: 0;
    top: 0;
+}
+.sectoin_special{
+   padding: 100px 0;
+}
+
+.section_title{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 44px;  
+   color: #232427;
+}
+.section_subtitle{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #9998A4;
+   margin-top: 15xp; 
+}
+
+.spesial{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 20px;
+   row-gap: 50px;
+   padding-left: 80px;
+}
+
+.spesial_item{
+   background: #FFFFFF;
+   border: 1px solid #EFEFF4;
+   box-sizing: border-box;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   width: 350px;
+   padding: 60px 40px;
+}
+.spesial_item_img{
+   width: 77px;
+   height: 77px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #FAFBFD;
+   border-radius: 100%;
+}
+
+.spesial_item_title{
+   margin-top: 40px;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 18px;
+   color: #232427;
+}
+
+.spesial_item_text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #9998A4;
+   margin-top: 16px;
+}
+.spesial_item:first-child{
+   border: none;
+   padding: 0;
+   justify-content: center;
+   padding-right: 60px;
+}
+
+.spesial_item:not(:first-child):hover{
+   background: #FAFBFD;
+   border-radius: 8px;
+   border: 1px solid #FAFBFD;
+   transition: 0.3s all ease;
+}
+
+.spesial_item:not(:first-child):hover >.spesial_item_img{
+   background: #FFFFFF;
+   box-shadow: 0px 6px 15px rgba(35, 36, 39, 0.05);
+}
+.section_trusted{
+   background: #FAF9FA;
+   padding: 50px 0;
+   padding-left: 80px;
+}
+.trusted{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   column-gap: 65px;
+}
+.trusted_title{
+   font-size: 28px;
+   line-height: 28px;
+   text-align: center;
+   color: #232427;
+}
+.trusted_item{
+   margin-top: 40px;
+
 }
