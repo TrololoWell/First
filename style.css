@@ -365,3 +365,56 @@ span{
    margin-top: 40px;
 
 }
+
+.section_support{
+   padding: 140px 0;
+}
+
+.support{
+   display: flex;
+   justify-content: space-between;
+}
+
+.support_item{
+   display: flex;
+   flex-direction: column;
+   background: #FAFBFD;
+   padding: 20px;
+}
+
+.support_item_img{
+   max-width: 100%;
+   width: 100%;
+   height: auto;
+}
+.support_item_img img{
+   width: 400px;
+   border-radius: 16px;
+}
+
+.first_support{
+   margin-top: 45px;
+}
+
+.second_support{
+   margin-top: 30px;
+}
+
+.support_item_links a{
+   text-decoration: none;
+}
+
+.support_item_links{
+   margin-top: 7px;
+   display: flex;
+   gap: 10px;
+}
+
+.support_title{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 16px;
+   color: #232427;
+   margin-top: 20px;
+}
