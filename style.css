@@ -408,6 +408,7 @@ span{
    margin-top: 7px;
    display: flex;
    gap: 10px;
+   align-items: center;
 }
 
 .support_title{
@@ -417,4 +418,134 @@ span{
    line-height: 16px;
    color: #232427;
    margin-top: 20px;
+}
+.first_support>.support_item:nth-child(even){
+   background: #FFFFFF;
+   filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.05));
+   box-shadow: 0px 4px 144px rgba(0, 0, 0, 0.04);
+   border-radius: 4px;
+} 
+
+.second_support>.support_item:nth-child(odd){
+   background: #FFFFFF;
+   filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.05));
+   box-shadow: 0px 4px 144px rgba(0, 0, 0, 0.04);
+   border-radius: 4px;
+} 
+
+footer{
+   background: #232427;
+   padding-top: 65px;
+   padding-bottom: 90px;
+}
+.footer{
+   display: flex;
+}
+
+.footer_item{
+   max-width: 450px;
+   display: flex;
+   flex-direction: column;
+}
+
+.footer_logo{
+   color: #FFFFFF;
+   font-size: 24px;
+}
+.footer_text{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #FFFFFF;
+   margin-top: 22px;
+}
+
+.footer_copy{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 14px;
+   color: #adadad;
+   max-width: 168px;
+   line-height: 128%;
+   margin-top: auto;
+}
+
+.footer_title{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+
+.form_lable{
+   background: #FFFFFF;
+   border-radius: 4px;
+   margin-top: 12px;
+   position: relative;
+   display: flex;
+}
+
+.footer_input{
+   padding: 20px 58px 20px 20px;
+   background: #FFFFFF;
+   border-radius: 4px;
+   border: none;
+   outline: none;
+   width: 100%;
+}
+
+.footer_input:focus{
+   outline: 1px solid black;
+}
+
+.footer_btn{
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   right: 8px;
+   top: 8px;
+   bottom: 8px;
+   background: #2962EF;
+   border: none;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer_btn:hover{
+   background: #053ecf;
+   transform: 0.3s all ease;
+}
+
+.form_text{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #FFFFFF;
+   margin-top: 10px;
+}
+
+.footer_social{
+   display: flex;
+   margin-top: 32px;
+   justify-content:space-between;
+}
+
+.footer_social_item{
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #5E5C6C;
+}
+
+.footer_linK{
+   display: flex;
 }
