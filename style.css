@@ -54,6 +54,7 @@ nav{
 .menu_item{
    margin: 15px;
    list-style: none;
+   display: flex;
 }
 
 .menu_item:last-child a{
@@ -94,9 +95,14 @@ nav{
       background-color: black;
       left: 0;
       top: 0;
-      pointer-events: all;
+      height: 100vh;
+      width: 100vh;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      transition: all 1s ease-out;
+      pointer-events:none;
       z-index: 22;
       animation: fade 0,1s linear;
    }
