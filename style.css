@@ -27,7 +27,7 @@ body {
    padding: 0;
    font-family: 'Poppins', sans-serif; 
 }
-body .locked {
+body>.locked {
    overflow: hidden;
 } 
 
@@ -548,4 +548,8 @@ footer{
 
 .footer_linK{
    display: flex;
+}
+
+.right{
+   float: right;
 }
